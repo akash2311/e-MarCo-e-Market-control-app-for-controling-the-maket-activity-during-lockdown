@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".home">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/welcome_you_are_in_market"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:text="@string/shop_details"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="87dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        tools:ignore="MissingConstraints">
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:text="@string/shop_detailss"
+                 android:textSize="17sp"
+                 android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="255dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="@string/shop_name"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="127dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/owner"
+            android:textColor="@color/colorAccent"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="255dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="55dp"
+            android:layout_marginLeft="55dp"
+            android:text="@string/owner_name" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="168dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/phone_no"
+            android:textColor="@color/colorAccent"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="255dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="29dp"
+            android:layout_marginLeft="29dp"
+            android:text="@string/numberr" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="210dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/opening_time"
+            android:textColor="@color/colorAccent"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="255dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="@string/opening_timee" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="252dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/closing_time"
+            android:textColor="@color/colorAccent"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="255dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="7dp"
+            android:layout_marginLeft="7dp"
+            android:text="@string/closing_timee" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="294dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/address"
+            android:textColor="@color/colorAccent"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="255dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="44dp"
+            android:layout_marginLeft="44dp"
+            android:text="@string/shop_address" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/button"
+        android:text="@string/log_out"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="401dp"
+        tools:ignore="MissingConstraints"
+        android:onClick="login"/>
+</LinearLayout>
